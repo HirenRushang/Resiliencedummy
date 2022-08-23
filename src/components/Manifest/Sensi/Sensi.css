@@ -1,0 +1,95 @@
+.sensi_wrapper{
+    max-width: 100%;
+    padding: 0;
+    background-color: #E2F0EA;
+}
+
+.sensi_wrapper .sensi_section{
+    max-width: 1440px;
+    font-family: 'Inter', sans-serif;
+}
+
+.sensi_wrapper .sensi_section .sensi_block .sensi_left_col{
+    background-color: #263238;
+}
+
+.sensi_wrapper .sensi_section .sensi_block .sensi_right_col{
+    background-color: #6A9488;
+}
+
+.sensi_wrapper .sensi_section .sensi_block .sensi_left_col .sensi_left_part{
+    margin-top: 230px;
+    margin-bottom: 240px;
+    text-align: center;
+}
+
+.sensi_wrapper .sensi_section .sensi_block .sensi_right_col .sensi_right_part{
+    margin-top: 187px;
+    color: #F5F5F5;
+    margin-left: 100px;
+    margin-right: 98px;
+    
+}
+
+.sensi_wrapper .sensi_section .sensi_block .sensi_right_col .sensi_right_part .sensi_heading p{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.sensi_wrapper .sensi_section .sensi_block .sensi_right_col .sensi_right_part .sensi_heading .heading_number{
+    margin-bottom: 0;
+}
+
+
+
+
+@media only screen and (max-width:992px) {
+    .sensi_wrapper .sensi_section .sensi_block .sensi_right_col .sensi_right_part{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        
+    }
+
+    .sensi_wrapper .sensi_section .sensi_block .sensi_left_col .sensi_left_part img{
+        width: 70%;
+    }
+
+}
+
+ @media only screen and (max-width:767px){
+    .sensi_wrapper .sensi_section .sensi_block .sensi_left_col .sensi_left_part{
+        margin-top: 30px;
+        margin-bottom: 30px;
+       
+    }
+
+    .sensi_wrapper .sensi_section .sensi_block .sensi_left_col .sensi_left_part img{
+        width: 30%;
+    }
+
+    .sensi_wrapper .sensi_section .sensi_block .sensi_right_col .sensi_right_part .sensi_heading p{
+        font-size: 30px;
+       
+    }
+
+    
+} 
+
+@media only screen and (max-width:507px) {
+    .sensi_wrapper .sensi_section .sensi_block .sensi_right_col .sensi_right_part{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+        
+    }
+
+    .sensi_wrapper .sensi_section .sensi_block .sensi_right_col .sensi_right_part .sensi_heading p{
+        font-size: 35px;
+       
+    }
+
+    .sensi_wrapper .sensi_section .sensi_block .sensi_right_col .sensi_right_part .sensi_para p{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,194 @@
+.manifesthero_wrapper{
+     max-width: 100%;
+     background-color: #E2F0EA;
+     padding: 0;
+}
+
+.manifesthero_wrapper .manifesthero_section{
+    max-width: 1440px;
+ 
+    font-family: 'Inter', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 75px;
+}
+
+.manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part .manifest_heading{
+    font-size: 64px;
+    margin-bottom: 0;
+    color: #426362;
+    font-weight: 500;
+}
+
+.manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part .manifest_text{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+}
+
+
+
+/* Responsive */
+
+
+@media only screen and (max-width: 1091px) {
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_right_col .manifesthero_right_part img{
+           width: 95%;
+    }
+
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 166px;
+      }
+  
+
+}
+
+@media only screen and (max-width: 991px) {
+    
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 132px;
+      }
+  
+
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 130px;
+      }
+  
+
+}
+
+
+@media only screen and (max-width:851px) {
+
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 115px;
+      }
+
+      .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part .manifest_heading{
+        font-size: 58px;
+     
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 102px;
+      }
+      
+     
+  
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 102px;
+      }
+
+      .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part .manifest_heading{
+        font-size: 40px;
+     
+    }
+
+  
+
+}
+
+@media only screen and (max-width: 696px) {
+    
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 80px;
+      }
+
+   
+
+  
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 55px;
+      }
+
+      .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part .manifest_heading{
+        font-size: 30px;
+     
+    }
+}
+
+
+@media only screen and (max-width: 481px) {
+    
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 34px;
+      }
+
+     
+ }
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 14px;
+      }
+
+      .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_right_col .manifesthero_right_part img{
+        width: 80%;
+    }
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part .manifest_heading{
+        font-size: 25px;
+     
+    }
+
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part .manifest_text{
+        font-size: 13px;
+       
+    }
+    
+}
+
+
+@media only screen and (max-width: 290px) {
+    
+    .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_left_col .manifesthero_left_part{
+        
+        margin-top: 10px;
+      }
+
+      .manifesthero_wrapper .manifesthero_section .manifesthero_block .manifesthero_right_col .manifesthero_right_part img{
+        width: 80%;
+
+}
+}
+
+
+
+

@@ -1,0 +1,328 @@
+.footer_wrapper{
+    background: #F0EBD8;
+    max-width: 100%;
+}
+
+.footer_wrapper .footer_section {
+    max-width: 1440px;
+    padding-top: 84px;
+    padding-bottom: 50px;
+    
+}
+
+
+.footer_wrapper .footer_section .footer .about_resiliance{
+    margin-left: 111px;
+    margin-bottom: 40px;
+}
+
+
+.footer_wrapper .footer_section .footer .about_resiliance .resiliance_hedaing p{
+    font-size: 26px;
+    color: #333333;
+    font-weight: 600;
+}
+.footer_wrapper .footer_section .footer .about_resiliance .resiliance_address p{
+    font-size: 15px;
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.footer_wrapper .footer_section .footer .about_resiliance .resiliance_address_sec p{
+    font-size: 15px;
+    color: #333333;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.footer_wrapper .footer_section .footer .footer_navigation {
+    margin-bottom: 40px;
+}
+
+.footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_one{
+    margin-left:270px ;
+    padding: 0;
+}
+.footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_two{
+   
+    padding: 0;
+}
+.footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_three{
+    margin-left:20px ;
+    padding: 0;
+}
+
+.footer_wrapper .footer_section .footer .footer_navigation p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer_wrapper .footer_section .footer .footer_navigation ul{
+    padding: 0;
+}
+
+
+.footer_wrapper .footer_section .footer .footer_navigation li{
+    list-style: none;
+}
+
+.footer_wrapper .footer_section .footer .footer_navigation li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer_wrapper .footer_section .footer .footer_navigation li a:hover{
+   
+    
+  
+    font-weight: 700;
+   
+}
+
+.footer_wrapper .footer_section .footer_bottom_line{
+    border-bottom: 1px solid black;
+    margin-left: 100px;
+    width:1200px;
+}
+
+.footer_wrapper .footer_section .footer_description{
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer_wrapper .footer_section .footer_description .term_use{
+    font-weight: 600;
+}
+
+.footer_wrapper .footer_section .footer_description .copyright span{
+    font-weight: 600;
+}
+
+.footer_wrapper .footer_section .footer_description .copyright{
+    margin-left: 100px;
+}
+
+.footer_wrapper .footer_section .footer_description .francais{
+    margin-left: 34px;
+}
+
+.footer_wrapper .footer_section .footer_description .francais span{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1360px) {
+   
+    .footer_wrapper .footer_section .footer .about_resiliance{
+        margin-left: 40px;
+        
+    }
+
+    .footer_wrapper .footer_section .footer_bottom_line{
+       
+        margin-left: 36px;
+       
+    }
+
+    .footer_wrapper .footer_section .footer_description .copyright{
+        margin-left: 37px;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_three{
+       
+        width: 19%;
+    }
+
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_two{
+      margin-left: 15px;
+       
+    }
+
+    .footer_wrapper .footer_section .footer_bottom_line{
+       
+       
+        width:1124px;
+    }
+    .footer_wrapper .footer_section .footer .about_resiliance .resiliance_address p{
+        font-size: 13px;
+      
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+
+    .footer_wrapper .footer_section .footer .about_resiliance{
+        margin-left: 0;
+       padding: 0;
+        
+    }
+
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_one{
+        margin-left:100px ;
+       
+    }
+
+    .footer_wrapper .footer_section .footer .footer_navigation p{
+        font-size: 13px;
+       
+    }
+  
+    .footer_wrapper .footer_section .footer .about_resiliance .resiliance_address_sec p{
+       width: 100%;
+    }
+
+    .footer_wrapper .footer_section .footer_bottom_line{
+     display: none;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+
+    .footer_wrapper .footer_section .footer .about_resiliance{
+        margin-left: 0;
+         
+     }
+
+     .footer_wrapper .footer_section .footer .about_resiliance .resiliance_hedaing,
+     .footer_wrapper .footer_section .footer .about_resiliance .resiliance_address,
+     .footer_wrapper .footer_section .footer .about_resiliance .resiliance_address_sec{
+        margin-left: 20px;
+         
+     }
+
+     .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_one{
+        margin-left:150px ;
+        
+    }
+
+    .footer_wrapper .footer_section .footer .footer_navigation p{
+        font-size: 13px;
+       
+    }
+  
+  
+
+    .footer_wrapper .footer_section .footer_bottom_line{
+       margin-left: 0px;
+       
+        width:942px;
+    }
+
+    .footer_wrapper .footer_section .footer_description .copyright{
+        margin-left: 0;
+    }
+
+  }
+
+  @media only screen and (max-width:992px) {
+
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_one{
+        margin-left:0 ;
+        
+    }
+    .footer_wrapper .footer_section .footer_description .copy_col{
+        padding: 0;
+    }
+
+    .footer_wrapper .footer_section .footer_description .term_col{
+        padding: 0;
+    }
+
+    .footer_wrapper .footer_section .footer_description .franc_col{
+        padding: 0;
+    }
+
+    .footer_wrapper .footer_section .footer_description .francais{
+        margin-left: 0;
+    }
+
+    .footer_wrapper .footer_section .footer_bottom_line{
+      
+        
+         width:912px;
+     }
+
+     .footer_wrapper .footer_section .footer .footer_navigation p{
+        font-size: 12px;
+       
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_three{
+       
+        width: 20%;
+    }
+
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_one{
+        margin-left:20px ;
+        
+    }
+   
+    .footer_wrapper .footer_section .footer_bottom_line{
+      
+        
+         width:700px;
+     }
+
+    
+  }
+
+
+  @media only screen and (max-width:576px){
+    
+
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_one,
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_two,
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_three{
+        margin-left:0;
+        
+    }
+
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_three{
+       
+        width: 30%;
+    }
+
+    .footer_wrapper .footer_section .footer .about_resiliance .resiliance_hedaing,
+     .footer_wrapper .footer_section .footer .about_resiliance .resiliance_address,
+     .footer_wrapper .footer_section .footer .about_resiliance .resiliance_address_sec{
+        margin-left: 0;
+         
+     }
+  }
+
+  @media only screen and (max-width:481px) {
+    /* .footer_wrapper .footer_section .footer_bottom_line{
+        width:434px;
+    } */
+    .footer_wrapper .footer_section .footer .about_resiliance .resiliance_address_sec p{
+        width: 100%;
+     }
+  }
+
+  @media only screen and (max-width:320px) {
+    /* .footer_wrapper .footer_section .footer_bottom_line{
+        width:260px;
+    } */
+    .footer_wrapper .footer_section .footer_description .copyright{
+        width: 71%;
+    }
+    .footer_wrapper .footer_section .footer_description .term_col .term_use{
+       width: 80%;
+    }
+    .footer_wrapper .footer_section .footer .footer_navigation .footer_navigation_full_list .footer_navigation_full_list_three{
+       
+        width: 100%;
+    }
+
+   
+  }

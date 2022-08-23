@@ -1,0 +1,186 @@
+.saviour_hero_wrapper{
+    background-color: #E2F0EA;
+    max-width: 100%;
+}
+
+.saviour_hero_wrapper .saviour_hero_section{
+    max-width: 1440px;
+}
+
+.saviour_hero_wrapper .saviour_hero_section .saviour_hero_block{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para,
+.saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_img{
+    margin: auto;
+}
+
+.saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_img img{
+    margin-left: 35px;
+}
+.saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+    font-size: 58px;
+    line-height: 105%;
+    color: #426362;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .detail{
+    color: #333333;
+     font-size: 15px;
+     font-family: 'Inter', sans-serif;
+    
+     font-weight: 400;
+     margin-bottom: 50px;
+}
+
+.saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para button{
+    background: #426362;
+    border-radius: 30px;
+    padding: 12px 20px;
+}
+
+.saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para button a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para button span{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:1360px) {
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+        font-size: 53px;
+       
+    }
+    
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .detail{
+    
+         width: 93%;
+       
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+        font-size: 50px;
+       
+    }
+
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_img img{
+        width:90%
+    }
+    
+}
+
+@media only screen and (max-width:1199px) {
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+        font-size: 53px;
+       
+    }
+}
+
+
+@media only screen and (max-width:1080px){
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+        font-size: 49px;
+       
+    }
+}
+
+@media only screen and (max-width:992px){
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+        font-size: 43px;
+       
+    }
+}
+
+
+@media only screen and (max-width:869px){
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+        font-size: 37px;
+       
+    }
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+        font-size: 33px;
+       
+    }
+}
+
+
+@media only screen and (max-width:683px) {
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+        font-size: 18px;
+       
+    }
+
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .detail{
+        font-size: 14px;
+        width: 100%;
+      
+   }
+}
+
+@media only screen and (max-width:575px) {
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_para .title{
+        font-size: 22px;
+       
+    }
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_img img{
+        width:70%;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+}
+
+
+@media only screen and (max-width:481px) {
+    .saviour_hero_wrapper .saviour_hero_section .saviour_hero_block .saviour_hero_block_img img{
+        width:70%;
+       
+    }
+
+   
+}
+
+
+@media only screen and (max-width:400px){
+
+}
+
+@media only screen and (max-width:320px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

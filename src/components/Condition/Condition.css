@@ -1,0 +1,94 @@
+.condition_wrapper{
+    max-width: 100%;
+    background-color:#F5F5F5 ;
+}
+
+.condition_wrapper .condition_section{
+    max-width: 1440px;
+    padding-top: 84px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 69px;
+    font-family: 'Inter', sans-serif;
+}
+
+.condition_wrapper .condition_section .bottom_border{
+    border-bottom: 1px solid #426362;
+}
+
+
+.condition_wrapper .condition_section .condition_page_heading p{
+    color: #426362;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.condition_wrapper .condition_section .condition_page_heading{
+    line-height: 50px;
+}
+
+
+.condition_wrapper .condition_section .artical_title p{
+    font-size: 24px;
+    font-weight: 600;
+    color:#1E2340;
+}
+
+.condition_wrapper .condition_section .acces,
+.condition_wrapper .condition_section .utilisation,
+.condition_wrapper .condition_section .dispon{
+    color: #1E2340;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width:992px){
+    .condition_wrapper .condition_section{
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+    }
+    .condition_wrapper .condition_section .condition_page_heading p{
+        font-size: 58px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .condition_wrapper .condition_section{
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+    }
+    .condition_wrapper .condition_section .condition_page_heading p{
+        font-size: 39px;
+    }
+    .condition_wrapper .condition_section .condition_page_heading{
+        line-height: 26px;
+    }
+    .condition_wrapper .condition_section .artical_title p{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:481px){
+    .condition_wrapper .condition_section{
+      
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
+    .condition_wrapper .condition_section .condition_page_heading p{
+        font-size: 22px;
+    }
+    .condition_wrapper .condition_section .condition_page_heading{
+        line-height: 10px;
+    }
+    .condition_wrapper .condition_section .artical_title p{
+        font-size: 16px;
+    }
+    .condition_wrapper .condition_section .artical_detail p{
+        font-size: 13px;
+    }
+}

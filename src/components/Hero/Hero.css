@@ -1,0 +1,427 @@
+.hero_wrapper{
+     background-color: #E2F0EA;
+     max-width: 100%;
+}
+
+.hero_wrapper .hero_section{
+    max-width: 1440px;
+}
+
+.hero_wrapper .hero_block{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.hero_wrapper .hero_block .hero_para{
+    margin-left: 108px;
+}
+
+.hero_wrapper .hero_block .hero_para .hero_heading p{
+    font-size: 90px;
+    line-height: 105%;
+    color: #426362;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.hero_wrapper .hero_block .hero_para .hero_about p{
+     color: #333333;
+     font-size: 16px;
+     font-family: 'Inter', sans-serif;
+     width: 90%;
+     font-weight: 400;
+     margin-bottom: 50px;
+     
+}
+
+.hero_wrapper .hero_block .hero_para .hero_detail p{
+     color: #333333;
+     font-size: 16px;
+     font-family: 'Inter', sans-serif;
+     width: 79%;
+}
+
+.hero_wrapper .hero_block .hero_para .hero_detail span{
+    margin-right: 15px;
+}
+
+.hero_wrapper .hero_section .hero_block .hero_para .hero_detail .hero_detail_one,
+.hero_wrapper .hero_section .hero_block .hero_para .hero_detail .hero_detail_two,
+.hero_wrapper .hero_section .hero_block .hero_para .hero_detail .hero_detail_three{
+     display: flex;
+}
+
+.hero_wrapper .hero_block .hero_para .hero_link{
+    margin-top: 50px;
+}
+
+.hero_wrapper .hero_block .hero_para .hero_link .je_suis{
+    background-color: #426362;
+    border-radius: 44px;
+    padding: 15px 36px;
+    border: none;
+    
+
+}
+
+.hero_wrapper .hero_block .hero_para .hero_link .saviour{
+   
+    border: none;
+    margin-left: 30px;
+    border-bottom: 1px solid;
+   
+}
+
+.hero_wrapper .hero_block .hero_para .hero_link .je_suis a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    
+}
+
+.hero_wrapper .hero_block .hero_para .hero_link .saviour a{
+    text-decoration: none;
+    color: #426362;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    
+}
+
+.hero_wrapper .hero_block .hero_para .hero_link .je_suis img,
+.hero_wrapper .hero_block .hero_para .hero_link .saviour img
+{
+    margin-left: 10px;
+}
+
+.hero_wrapper .hero_block .hero_img{
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width:1425px) {
+    .hero_wrapper .hero_block .hero_para{
+        margin-left: 101px;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        font-size: 75px;
+      
+    }
+}
+
+
+@media only screen and (max-width: 1360px) {
+    .hero_wrapper .hero_block .hero_para{
+        margin-left: 95px;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        width: 99%;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_about p{
+        width: 77%;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_detail .hero_detail_two p{
+        width: 75%;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_detail .hero_detail_three p{
+        width: 100%;
+    }
+
+
+  }
+
+
+
+@media only screen and (max-width:1299px) {
+    
+
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        font-size: 80px;
+      
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    
+
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        font-size: 73px;
+      
+    }
+
+    .hero_wrapper .hero_block .hero_para{
+        margin-left: 58px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        width: 100%;
+        font-size: 63px;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_about p{
+        width: 100%;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_detail .hero_detail_two p{
+        width: 100%;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_detail p{
+     
+         width: 98%;
+    }
+
+    .hero_wrapper .hero_block .hero_para{
+        margin-left: 49px;
+    }
+
+    
+   
+  }
+
+  @media only screen and (max-width: 1096px) {
+    
+    .hero_wrapper .hero_block .hero_img img{
+       margin-left: -35px;
+    }
+
+    
+   
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    
+    .hero_wrapper .hero_block .hero_para{
+        margin-left: 12px;
+    }
+
+    .hero_wrapper .hero_block .hero_img img{
+        margin-left: 10px;
+     }
+ 
+
+    .hero_wrapper .hero_block .hero_img{
+        padding: 0;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        
+        font-size: 56px;
+    }
+     
+    .hero_wrapper .hero_block .hero_para .hero_link .je_suis{
+       
+        padding: 15px 20px;
+        
+    
+    }
+
+  }
+
+  @media only screen and (max-width: 1018px){
+    .hero_wrapper .hero_block .hero_img img{
+        margin-left: 8px;
+     }
+ 
+  }
+
+  @media only screen and (max-width: 1014px){
+    .hero_wrapper .hero_block .hero_img img{
+        margin-left: -4px;
+     }
+ 
+  }
+
+
+
+
+  @media only screen and (max-width:991px){
+    .hero_wrapper .hero_block .hero_img img{
+        margin-left: 219px;
+    }
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        
+        font-size: 43px;
+    }
+  }
+
+  @media only screen and (max-width:850px){
+    .hero_wrapper .hero_block .hero_img img{
+        margin-left: 163px;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    
+    .hero_wrapper .hero_block .hero_para{
+        margin: auto;
+    }
+
+
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        
+        font-size: 32px;
+    }
+     
+    .hero_wrapper .hero_block .hero_para .hero_link .je_suis,
+    .hero_wrapper .hero_block .hero_para .hero_link .saviour {
+       font-size: 20px;
+    
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_about p,
+    .hero_wrapper .hero_block .hero_para .hero_detail p,
+    .hero_wrapper .hero_block .hero_para .hero_detail .hero_detail_two p,
+    .hero_wrapper .hero_block .hero_para .hero_detail .hero_detail_three p
+    {
+        font-size: 17px;
+    }
+
+    .hero_wrapper .hero_block .hero_img{
+       margin: auto;
+       
+    }
+
+    .hero_wrapper .hero_block .hero_img img{
+       margin-left: 83px;
+
+  }
+
+}
+
+@media only screen and (max-width:700px){
+    .hero_wrapper .hero_block .hero_img img{
+        margin-left: 100px;
+    }
+  }
+
+
+@media only screen and (max-width:634px) {
+    .hero_wrapper .hero_block .hero_img img{
+        margin-left: 60px;
+ 
+   }
+ 
+}
+
+@media only screen and (max-width:576px){
+    .hero_wrapper .hero_block .hero_img img{
+        margin-left: 56px;
+        width: 78%;
+        margin-top: 20px;
+    }
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        font-size: 31px;
+       
+    }
+    .hero_wrapper .hero_block .hero_para .hero_link .je_suis,
+    .hero_wrapper .hero_block .hero_para .hero_link .saviour {
+       font-size: 18px;
+    
+    }
+}
+
+@media only screen and (max-width:481px){
+   
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        font-size: 25px;
+       
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_link{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_link .saviour{
+        margin-left: 0;
+        margin-top: 33px;
+        border-bottom: 0px;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_about p,
+    .hero_wrapper .hero_block .hero_para .hero_detail p,
+    .hero_wrapper .hero_block .hero_para .hero_detail .hero_detail_two p,
+    .hero_wrapper .hero_block .hero_para .hero_detail .hero_detail_three p
+    {
+        font-size: 15px;
+    }
+   
+}
+
+@media only screen and (max-width:390px){
+   
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+     font-size: 20px;
+       
+    }
+
+}
+
+@media only screen and (max-width:320px){
+   
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        font-size: 22px;
+       
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_about p,
+    .hero_wrapper .hero_block .hero_para .hero_detail p,
+    .hero_wrapper .hero_block .hero_para .hero_detail .hero_detail_two p,
+    .hero_wrapper .hero_block .hero_para .hero_detail .hero_detail_three p
+    {
+        font-size: 15px;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_link .je_suis{
+       
+        padding: 10px 10px;
+        
+    
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_link .saviour{
+        margin-left: 5px;
+        margin-top: 13px;
+    }
+
+    .hero_wrapper .hero_block .hero_para .hero_link .je_suis,
+    .hero_wrapper .hero_block .hero_para .hero_link .saviour {
+       font-size: 15px;
+    
+    }
+
+    .hero_wrapper .hero_block .hero_img img{
+        margin-left: 36px;
+      
+    }
+
+   
+}
+
+
+@media only screen and (max-width:320px){
+   
+    .hero_wrapper .hero_block .hero_para .hero_heading p{
+        font-size: 30px;
+       
+    }
+
+}

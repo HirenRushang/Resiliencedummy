@@ -1,0 +1,162 @@
+.asd{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    
+}
+
+.navbar-expand-lg{
+    border-bottom: #426362 1px solid;
+}
+
+.dropdown-toggle::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f078";
+    vertical-align: 0px;
+    margin-left: 10px;
+    border: none ;
+}
+
+.nav_dropdown img{
+    margin-right: 20px;
+}
+
+.nav_dropdown .dropdown-item{
+    padding: 13px 25px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    width: 258px;
+    border-radius: 10px;
+}
+
+.sincrire{
+    background: #426362;
+    padding: 7px 25px ;
+    border-radius: 36px;
+    color: white !important;
+    border: none;
+}
+
+.right_navbar{
+    margin-left: 260px;
+}
+
+.right_navbar .language{
+    margin-left: 30px;
+}
+.right_navbar .connexion{
+    margin-left: 30px;
+}
+.right_navbar .sincrire{
+    margin-left: 30px;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: #333333;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav_dropdown{
+    margin-left: 50px;
+}
+
+
+.navbar_bottom_border{
+    border-bottom: 1px solid #426362;
+}
+
+@media only screen and (max-width:1399px){
+    .right_navbar{
+        margin-left: 93px;
+    }
+}
+
+
+@media only screen and (max-width:1199px){
+    .right_navbar{
+        margin-left: 87px;
+    }
+
+    .right_navbar .language{
+        margin-left: 10px;
+    }
+    .right_navbar .connexion{
+        margin-left: 10px;
+    }
+    .right_navbar .sincrire{
+        margin-left: 10px;
+    }
+
+    .nav_dropdown{
+        margin-left: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+     
+        font-size: 15px;
+       
+    }
+}
+
+@media only screen and (max-width:991px){
+    .right_navbar{
+        margin-left: 0;
+    }
+
+    .right_navbar .language{
+        margin-left: 0;
+    }
+    .right_navbar .connexion{
+        margin-left: 0;
+    }
+    .right_navbar .sincrire{
+        margin-left: 0;
+    }
+
+    .nav_dropdown{
+        margin-left: 0;
+    }
+
+    .sincrire{
+      width: 18%;
+       
+       
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    .sincrire{
+        width: 25%;
+    }
+  }
+
+
+  @media only screen and (max-width:440px){
+    .sincrire{
+        width: 26%;
+    }
+  }
+
+
+  @media only screen and (max-width:430px){
+    .sincrire{
+        width: 32%;
+    }
+  }
+
+  @media only screen and (max-width:375px){
+    .sincrire{
+        width: 35%;
+    }
+  }
+
+  @media only screen and (max-width:330px){
+    .sincrire{
+        width: 40%;
+    }
+  }

@@ -1,0 +1,99 @@
+.agir_wrapper{
+    max-width: 100%;
+    padding: 0;
+    background-color: #E2F0EA;
+}
+
+.agir_wrapper .agir_section{
+    max-width: 1440px;
+    font-family: 'Inter', sans-serif;
+}
+
+.agir_wrapper .agir_section .agir_block .agir_left_col{
+    background-color: #F5F5F5;
+}
+
+.agir_wrapper .agir_section .agir_block .agir_right_col{
+    background-color: #F0EBD8;
+}
+
+.agir_wrapper .agir_section .agir_block .agir_right_col .agir_right_part{
+    margin-top: 230px;
+    margin-bottom: 240px;
+    text-align: center;
+}
+
+.agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part{
+    margin-top: 187px;
+    color: #333333;
+    margin-left: 100px;
+    margin-right: 98px;
+}
+
+
+.agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part .agir_heading p{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part .agir_heading .heading_number{
+    margin-bottom: 0;
+}
+
+.agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part .agir_para .agir_para_two{
+    margin-bottom: 0;
+}
+
+.agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part .agir_para span{
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width:992px) {
+    .agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        
+    }
+
+    .agir_wrapper .agir_section .agir_block .agir_right_col .agir_right_part img{
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+    .agir_wrapper .agir_section .agir_block .agir_right_col .agir_right_part{
+        margin-top: 30px;
+        margin-bottom: 30px;
+       
+    }
+
+    .agir_wrapper .agir_section .agir_block .agir_right_col .agir_right_part img{
+        width: 30%;
+    }
+
+    .agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part .agir_heading p{
+        font-size: 30px;
+       
+    }
+}
+
+@media only screen and (max-width:507px) {
+    .agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+        
+    }
+
+    .agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part .agir_heading p{
+        font-size: 35px;
+       
+    }
+
+    .agir_wrapper .agir_section .agir_block .agir_left_col .agir_left_part .agir_para p{
+        font-size: 15px;
+    }
+}

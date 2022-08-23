@@ -1,0 +1,244 @@
+.news_wrapper{
+    background: #121A2F;
+    max-width: 100%;
+}
+
+.news_wrapper .news_section{
+    max-width: 1440px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 145px;
+}
+
+.news_wrapper .news_section .news_title p{
+    color: white;
+    font-size: 48px;
+    width: 34%;
+    font-family: 'Inter', sans-serif;
+    line-height: 60px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.news_wrapper .news_section .news_input {
+    margin-left: 2px;
+}
+
+.news_wrapper .news_section .news_input input{
+    background: #121A2F;
+    border: 1px solid white;
+    width: 26%;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 58px;
+    color: white;
+    font-size: 16px;
+}
+
+.news_wrapper .news_section .news_input button{
+    width: 13%;
+    margin-left: 20px;
+    border: none;
+    border-radius: 29px;
+    background: #426362;
+    padding: 17px 13px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.news_wrapper .news_section .news_input button span{
+   margin-left: 10px;
+}
+
+::placeholder {
+    color: #979797;
+    
+  }
+
+  @media only screen and (max-width:1360px){
+    .news_wrapper .news_section .news_title p{
+        width: 36%;
+        
+    }
+
+}
+
+  @media only screen and (max-width:1280px){
+    .news_wrapper .news_section .news_title p{
+        width: 40%;
+        
+    }
+
+}
+
+
+@media only screen and (max-width:1200px){
+    .news_wrapper .news_section .news_title p{
+        width: 43%;
+        
+    }
+
+    .news_wrapper .news_section .news_input button{
+        width: 17%;
+       
+    }
+    
+}
+
+@media only screen and (max-width:1100px){
+    .news_wrapper .news_section .news_title p{
+        width: 47%;
+        
+    }
+
+    
+}
+
+@media only screen and (max-width:1024px){
+    .news_wrapper .news_section .news_title p{
+        width: 46%;
+        
+    }
+
+    .news_wrapper .news_section .news_input button{
+        width: 18%;
+       
+    }
+
+    .news_wrapper .news_section .news_input input{
+      
+        width: 34%;
+       
+    }
+
+    .news_wrapper .news_section{
+       padding-left: 80px;
+    }
+
+    
+}
+
+@media only screen and (max-width:992px){
+
+    .news_wrapper .news_section .news_title p{
+        width: 50%;
+        
+    }
+  .news_wrapper .news_section .news_input button{
+        width: 22%;
+       
+    }
+}
+
+@media only screen and (max-width:895px){
+
+    .news_wrapper .news_section .news_title p{
+        width: 56%;
+        
+    }
+ 
+}
+
+@media only screen and (max-width:768px) {
+    .news_wrapper .news_section .news_title p{
+       font-size:32px;
+       margin-bottom: 30px;
+       line-height: 44px;
+    }
+    .news_wrapper .news_section .news_input input{
+        width: 32%;
+       
+    }
+    .news_wrapper .news_section .news_input button{
+        width: 23%;
+    }
+
+    .news_wrapper .news_section{
+        padding-left: 17px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+  
+}
+
+@media only screen and (max-width:660px){
+    .news_wrapper .news_section .news_input input{
+        width: 37%;
+       
+    }
+    .news_wrapper .news_section .news_input button{
+        width: 27%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .news_wrapper .news_section .news_input input{
+        width: 43%;
+       
+    }
+  
+}
+
+
+@media only screen and (max-width:576px) {
+    .news_wrapper .news_section .news_title p{
+       font-size:32px;
+       margin-bottom: 30px;
+       line-height: 44px;
+    }
+    .news_wrapper .news_section .news_input input{
+        width: 50%;
+       
+    }
+    .news_wrapper .news_section .news_input button{
+        width: 39%;
+    }
+
+    .news_wrapper .news_section{
+        padding-left: 17px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+  
+}
+
+@media only screen and (max-width:481px) {
+    .news_wrapper .news_section .news_title p{
+        width: 100%;
+        margin-bottom: 30px;
+        font-size: 30px;
+      }
+      .news_wrapper .news_section .news_input input{
+          width: 100%;
+         
+      }
+      .news_wrapper .news_section .news_input button{
+          width: 100%;
+          margin-top: 20px;
+          margin-left: 0;
+      }
+      .news_wrapper .news_section{
+          padding-left: 0;
+          padding-top: 50px;
+          padding-bottom: 50px;
+       }
+ 
+}
+
+
+
+/* @media only screen and (max-width:320px) {
+    .news_wrapper .news_section .news_title p{
+      width: 100%;
+      font-size: 29px;
+      line-height: 35px;
+    }
+  
+    
+    .news_wrapper .news_section{
+        padding-left: 0;
+     }
+ 
+} */

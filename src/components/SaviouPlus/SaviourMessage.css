@@ -1,0 +1,295 @@
+.saviour_message_wrapper{
+    background-color: #F5F5F5;
+    max-width: 100%;
+}
+
+.saviour_message_wrapper .saviour_message_section{
+    max-width: 1440px;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_message_block{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_img img{
+    margin-left: 114px;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+    font-size: 42px;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    width: 72%;
+    line-height: 52.5px;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .saviour_para{
+    margin-left: 30px;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_from{
+    font-size: 18px;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .compony_name{
+    font-size: 18px;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  
+    margin: 0;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_devider .saviour_devider_columm .props_border_top{
+    border-top: 1px solid #6A9488;
+    margin-left: 114px;
+  
+
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column{
+    margin-top: 50px;
+    margin-left: 114px;
+    margin-bottom: 105px;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_title p{
+    font-size: 42px;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_para p{
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_para_sec p{
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 96%;
+}
+
+@media only screen and (max-width:1360px){
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_img img{
+        margin-left: 50px;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+        
+        width: 82%;
+      
+    }
+}
+
+
+@media only screen and (max-width:1280px){
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_img img{
+        width: 90%;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+        width: 88%;
+       
+    }
+}
+
+
+@media only screen and (max-width:1199px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_img img{
+        width: 80%;
+        margin-left: 116px;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+        font-size: 30px;
+        line-height: 36px;
+     }
+
+  
+
+}
+
+
+@media only screen and (max-width:1080px) {
+    
+}
+
+@media only screen and (max-width:992px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+        font-size: 25px;
+        line-height: 30px;
+     }
+     .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_img img{
+       
+        margin-left: 72px;
+    }
+}
+
+
+@media only screen and (max-width:840px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+        font-size: 21px;
+        line-height: 25px;
+     }
+}
+
+
+@media only screen and (max-width:767px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+        font-size: 20px;
+        line-height: 24px;
+     }
+}
+
+
+@media only screen and (max-width:667px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+        font-size: 16px;
+        line-height: 20px;
+     }
+   
+}
+
+@media only screen and (max-width:575px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .saviour_para{
+        margin-left: 0;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_img img{
+       width: 64%;
+        margin-left: 0;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+        width: 66%;
+     }
+
+     .saviour_message_wrapper .saviour_message_section .saviour_message_block{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .compony_name{
+        font-size: 14px;
+      
+    }
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_from{
+        font-size: 14px;
+        
+    }
+   
+}
+
+
+@media only screen and (max-width:481px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_message_block .saviour_message_block_para .message_text{
+        width: 74%;
+    font-size: 14px;
+    line-height: 15px;
+     }
+}
+
+/* A props Responsive */
+
+@media only screen and (max-width:1280px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column{
+        margin-left: 99px;
+       
+    }
+}
+
+
+@media only screen and (max-width:1199px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_title p{
+        font-size: 30px;
+      
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_para p{
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_para_sec p{
+        width: 100%;
+        font-size: 17px;
+      
+       
+    }
+}
+
+@media only screen and (max-width:1080px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column{
+        margin-left: 93px;
+       
+    }
+}
+
+
+@media only screen and (max-width:991px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column{
+        margin-left: 0;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_devider .saviour_devider_columm .props_border_top{
+        margin-left: 0;
+       
+    }
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_title p{
+        font-size: 25px;
+      
+    }
+}
+
+
+@media only screen and (max-width:576px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_para p{
+       
+        font-size: 16px;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_para_sec p{
+       
+        font-size: 16px;
+    }
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column{
+       margin-top: 30px;
+       margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:481px) {
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_para p{
+       
+        font-size: 15px;
+    }
+
+    .saviour_message_wrapper .saviour_message_section .saviour_props_block .saviour_props_column .props_para_sec p{
+       
+        font-size: 15px;
+      
+       
+    }
+}
+
+
+
+
+
+
+
+
+

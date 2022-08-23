@@ -1,0 +1,5 @@
+export {default as Home} from "./Home/Home"
+export {default as Navbar2} from "./Navbar/Navbar2"
+export {default as Footer} from "./Footer/Footer"
+export {default as Manifest} from "./Manifest/Manifest"
+export {default as SaviourPlus} from "./SaviouPlus/SaviourPlus"

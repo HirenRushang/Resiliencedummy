@@ -1,0 +1,65 @@
+.trouvez_wrapper{
+    background-color: #F5F5F5;
+    max-width: 100%;
+}
+
+.trouvez_wrapper .trouvez_section{
+    max-width: 1440px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-family: "Inter", sans-serif;
+}
+
+.trouvez_wrapper .trouvez_section .trouvez_heading{
+    text-align: center;
+}
+
+.trouvez_wrapper .trouvez_section .trouvez_heading p{
+    color: #333333;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+
+.trouvez_wrapper .trouvez_section .trouvez_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.trouvez_wrapper .trouvez_section .trouvez_btn button{
+    background-color: #426362;
+    border-radius: 30px;
+    border: none;
+    padding: 16px 24px 16px 24px;
+    color: #FFFFFF;
+}
+
+.trouvez_wrapper .trouvez_section .trouvez_btn img{
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width:777px){
+    .trouvez_wrapper .trouvez_section .trouvez_heading p{
+      
+        font-size: 32px;
+       
+    }
+}
+
+@media only screen and (max-width:600px){
+    .trouvez_wrapper .trouvez_section .trouvez_heading p{
+      
+        font-size: 25px;
+       
+    }
+}
+
+
+@media only screen and (max-width:481px){
+    .trouvez_wrapper .trouvez_section .trouvez_heading p{
+      
+        font-size: 16px;
+       
+    }
+}

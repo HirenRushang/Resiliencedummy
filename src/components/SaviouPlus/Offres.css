@@ -1,0 +1,757 @@
+.offres_wrapper {
+  background-color: #121a2f;
+  max-width: 100%;
+}
+
+.offres_wrapper .offres_section {
+  max-width: 1440px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: "Inter", sans-serif;
+}
+
+.offres_wrapper .offres_section .offres_block_heading .offres_heading {
+  text-align: center;
+}
+
+.offres_wrapper .offres_section .offres_block_heading .offres_heading .title {
+  font-size: 42px;
+  font-weight: 500;
+  color: #f5f5f5;
+}
+
+/* COMMAN CARD CSS */
+
+.offres_wrapper .offres_section .card_one {
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  padding-left: 44px;
+}
+
+.offres_wrapper .offres_section .card_two {
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  padding-left: 44px;
+}
+
+/* CARD ROW */
+
+.offres_wrapper .offres_section .offres_first_card_line,
+.offres_wrapper .offres_section .offres_sec_card_line {
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+/* CARD ONE */
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_one
+  .staff_category
+  p {
+  font-size: 18px;
+  color: #426362;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_one
+  .staff_post
+  p {
+  font-size: 24px;
+  color: #333333;
+  width: 77%;
+  font-weight: 500;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_one
+  .staff_location
+  p {
+  font-size: 18;
+  color: #333333;
+  display: inline-block;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_one
+  .staff_location {
+  display: inline-block;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_one
+  .staff_location
+  .full_time {
+  margin-left: 30px;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_one
+  .staff_location
+  img {
+  margin-right: 10px;
+}
+
+/* CARD TWO */
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_two
+  .staff_category
+  p {
+  font-size: 18px;
+  color: #426362;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_two
+  .staff_post
+  p {
+  font-size: 24px;
+  color: #333333;
+  width: 69%;
+  font-weight: 500;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_two
+  .staff_location
+  p {
+  font-size: 18;
+  color: #333333;
+  display: inline-block;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_two
+  .staff_location {
+  display: inline-block;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_two
+  .staff_location
+  .intern {
+  margin-left: 30px;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_two
+  .staff_location
+  img {
+  margin-right: 10px;
+}
+
+/* CARD THREE */
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_one
+  .staff_category
+  p {
+  font-size: 18px;
+  color: #426362;
+}
+
+.offres_wrapper .offres_section .offres_sec_card_line .card_one .staff_post p {
+  font-size: 24px;
+  color: #333333;
+  width: 74%;
+  font-weight: 500;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_one
+  .staff_location
+  p {
+  font-size: 18;
+  color: #333333;
+  display: inline-block;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_one
+  .staff_location {
+  display: inline-block;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_one
+  .staff_location
+  .full_time {
+  margin-left: 30px;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_one
+  .staff_location
+  img {
+  margin-right: 10px;
+}
+
+/* CARD FOUR */
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_two
+  .staff_category
+  p {
+  font-size: 18px;
+  color: #426362;
+}
+
+.offres_wrapper .offres_section .offres_sec_card_line .card_two .staff_post p {
+  font-size: 24px;
+  color: #333333;
+  width: 52%;
+  font-weight: 500;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_two
+  .staff_location
+  p {
+  font-size: 18;
+  color: #333333;
+  display: inline-block;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_two
+  .staff_location {
+  display: inline-block;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_two
+  .staff_location
+  .intern {
+  margin-left: 30px;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_two
+  .staff_location
+  img {
+  margin-right: 10px;
+}
+
+/* buttons */
+
+.offres_wrapper .offres_section .offres_btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.offres_wrapper .offres_section .offres_btn button {
+  background-color: #426362;
+  border-radius: 30px;
+  border: none;
+  padding: 16px 24px 16px 24px;
+  color: #ffffff;
+}
+
+.offres_wrapper .offres_section .offres_btn button img {
+  margin-left: 10px;
+}
+
+/* First Line of Card Responsive */
+
+@media only screen and (max-width: 1360px) {
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_post
+    p {
+    width: 89%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_post
+    p {
+    width: 92%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_post
+    p {
+    font-size: 20px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_two
+    .staff_post
+    p {
+    font-size: 20px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_one
+    .staff_post
+    p {
+    font-size: 20px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_two
+    .staff_post
+    p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_post
+    p {
+    font-size: 18px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_two
+    .staff_post
+    p {
+    font-size: 18px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_one
+    .staff_post
+    p {
+    font-size: 18px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_two
+    .staff_post
+    p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 982px) {
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_post
+    p {
+    font-size: 15px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_two
+    .staff_post
+    p {
+    font-size: 15px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_one
+    .staff_post
+    p {
+    font-size: 15px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_two
+    .staff_post
+    p {
+    font-size: 15px;
+  }
+}
+
+/* @media only screen and (max-width:911px){
+    .offres_wrapper .offres_section .offres_first_card_line .card_two .staff_post p{
+      width: 40%;
+       
+    }
+} */
+
+@media only screen and (max-width: 850px) {
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_location
+    .full_time {
+    margin-left: 0;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_two
+    .staff_location
+    .intern {
+    margin-left: 0;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_one
+    .staff_location
+    .full_time {
+    margin-left: 0;
+  }
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_two
+    .staff_location
+    .intern {
+    margin-left: 0;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_location {
+    display: block;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_two
+    .staff_location {
+    display: block;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_one
+    .staff_location {
+    display: block;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_two
+    .staff_location {
+    display: block;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_location
+    p {
+    display: block;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_two
+    .staff_location
+    p {
+    display: block;
+  }
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_one
+    .staff_location
+    p {
+    display: block;
+  }
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_two
+    .staff_location
+    p {
+    display: block;
+  }
+
+  .offres_wrapper .offres_section .card_one {
+    padding-bottom: 30px;
+  }
+
+  .offres_wrapper .offres_section .card_two {
+    padding-bottom: 30px;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_one
+    .staff_post
+    p {
+    width: 18%;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_two
+    .staff_post
+    p {
+    width: 18%;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_post
+    p {
+    width: 85%;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_two
+    .staff_post
+    p {
+    width: 60%;
+  }
+}
+
+/* Row center in responsive */
+
+@media only screen and (max-width: 992px) {
+  .offres_wrapper .offres_section .offres_first_card_line,
+  .offres_wrapper .offres_section .offres_sec_card_line {
+    margin-left: 128px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .offres_wrapper .offres_section .offres_first_card_line,
+  .offres_wrapper .offres_section .offres_sec_card_line {
+    margin-left: 103px;
+  }
+}
+
+
+@media only screen and (max-width: 767px){
+   .card_sec_col{
+     margin-top: 50px;
+   }
+
+   .card_four_col{
+     margin-top: 50px;
+   }
+
+   .offres_wrapper .offres_section .offres_first_card_line,
+   .offres_wrapper .offres_section .offres_sec_card_line {
+     margin-left: 0;
+   }
+
+   .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_one
+    .staff_post
+    p {
+    width: 100%;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_sec_card_line
+    .card_two
+    .staff_post
+    p {
+      width: 100%;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_one
+    .staff_post
+    p {
+      width: 100%;
+  }
+
+  .offres_wrapper
+    .offres_section
+    .offres_first_card_line
+    .card_two
+    .staff_post
+    p {
+      width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 481px) {
+   .offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_one
+  .staff_post
+  p {
+  width: 53%;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_two
+  .staff_post
+  p {
+    width: 26%;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_one
+  .staff_post
+  p {
+    width: 85%;
+}
+
+.offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_two
+  .staff_post
+  p {
+    width: 53%;
+} 
+}
+
+
+@media only screen and (max-width: 400px){
+  .offres_wrapper
+  .offres_section
+  .offres_first_card_line
+  .card_two
+  .staff_post
+  p {
+    width: 68%;
+} 
+
+.offres_wrapper
+  .offres_section
+  .offres_sec_card_line
+  .card_two
+  .staff_post
+  p {
+    width: 35%;
+}
+
+
+}
+
+
+/* Heading Responsive */
+
+
+@media only screen and (max-width: 767px) {
+  .offres_wrapper .offres_section .offres_block_heading .offres_heading .title {
+    font-size: 32px;
+  
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .offres_wrapper .offres_section .offres_block_heading .offres_heading .title {
+    font-size: 29px;
+  
+  }
+  .offres_wrapper .offres_section {
+   
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .offres_wrapper .offres_section .offres_block_heading .offres_heading .title {
+    font-size: 27px;
+  
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .offres_wrapper .offres_section .offres_block_heading .offres_heading .title {
+    font-size: 25px;
+  
+  }
+}

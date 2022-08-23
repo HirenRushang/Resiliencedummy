@@ -1,0 +1,105 @@
+.legales_wrapper{
+    max-width: 100%;
+    background-color:#F5F5F5 ;
+}
+
+.legales_wrapper .legales_section{
+    max-width: 1440px;
+    padding-top: 84px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 69px;
+    font-family: 'Inter', sans-serif;
+}
+
+.legales_wrapper .legales_section .legales_bottom_border{
+    border-bottom: 1px solid #426362;
+    margin-bottom: 40px;
+}
+
+.legales_wrapper .legales_section .legales_heading p{
+    color: #426362;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.legales_wrapper .legales_section .address_line_first,
+.legales_wrapper .legales_section .seige_social{
+    margin-bottom: 0;
+}
+
+
+.legales_wrapper .legales_section .colorchange{
+    font-weight: 600;
+    color:#1E2340;
+}
+
+@media only screen and (max-width:1360px) {
+    .legales_wrapper .legales_section{
+       
+        padding-left: 124px;
+        padding-right: 124px;
+        
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+    .legales_wrapper .legales_section{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .legales_wrapper .legales_section .legales_heading p{
+       font-size: 58px;
+      
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+    .legales_wrapper .legales_section{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .legales_wrapper .legales_section .legales_heading p{
+       font-size: 39px;
+      
+    }
+}
+
+
+@media only screen and (max-width:576px) {
+    .legales_wrapper .legales_section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .legales_wrapper .legales_section .legales_heading p{
+       font-size: 30px;
+      
+    }
+
+    .legales_wrapper .legales_section .legales_para p{
+        font-size: 15px;
+    }
+
+    .legales_wrapper .legales_section .legales_bottom_border{
+        border-bottom: 1px solid #426362;
+        margin-bottom: 21px;
+    }
+}
+
+@media only screen and (max-width:481px) {
+    
+
+    .legales_wrapper .legales_section .legales_heading p{
+       font-size: 25px;
+      
+    }
+
+    .legales_wrapper .legales_section .legales_para p{
+        font-size: 13px;
+    }
+}
